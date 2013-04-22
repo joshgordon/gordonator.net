@@ -1,0 +1,18 @@
+$ORIGIN joshgordon.net.    ; default zone domain
+$TTL 600           ; default time to live
+
+@ IN SOA ns1.uberdns.eu. dnsmaster.uberdns.eu. (
+           2013042000  ; serial number
+           28800       ; Refresh
+           7200        ; Retry
+           864000      ; Expire
+           86400       ; Min TTL
+           )
+
+        NS      ns1.uberdns.eu.
+        NS      ns2.uberdns.eu.
+
+@       A       1.2.3.4
+www     A       1.2.3.4
+
+@       MX      10 mail.example.org.

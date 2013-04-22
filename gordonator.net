@@ -12,5 +12,5 @@ $TTL 600           ; default time to live
         NS      ns1.uberdns.eu.
         NS      ns2.uberdns.eu.
 
-@       A       130.85.228.77
-www     A       130.85.228.77
+@       A       66.147.242.86
+www     A       66.147.242.86
